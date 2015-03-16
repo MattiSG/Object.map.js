@@ -24,11 +24,12 @@ Object.map(valueMapper, keyMapper);
 ### Example
 
 ```JavaScript
+var source = { a: 1, b: 2 };
 function sum(x) { return x + x }
 
-({ a: 1, b: 2 }).map(sum);  // { a: 2, b: 4 }
-({ a: 1, b: 2 }).map(undefined, sum);  // { aa: 1, bb: 2 }
-({ a: 1, b: 2 }).map(sum, sum);  // { aa: 2, bb: 4 }
+source.map(sum);            // returns { a: 2, b: 4 }
+source.map(undefined, sum); // returns { aa: 1, bb: 2 }
+source.map(sum, sum);       // returns { aa: 2, bb: 4 }
 ```
 
 

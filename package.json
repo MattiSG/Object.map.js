@@ -1,0 +1,23 @@
+{
+  "name": "@mattisg/object.map",
+  "version": "1.0.0",
+  "description": "Array.map for Object. Map both an object’s keys and values. Defaults to cleanly augment prototype.",
+  "main": "Object.map.js",
+  "scripts": {
+    "test": "node Object.map.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattiSG/Object.map.js.git"
+  },
+  "keywords": [
+    "object",
+    "map"
+  ],
+  "author": "Matti Schneider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattiSG/Object.map.js/issues"
+  },
+  "homepage": "https://github.com/MattiSG/Object.map.js#readme"
+}
